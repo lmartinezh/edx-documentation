@@ -13,36 +13,10 @@ October, 2014
 
    * - Date
      - Change
-   * - 10/31/14
-     - Added warning in :ref:`Export a Course` about sensitive or license-
-       specific information that is included when you export a course.
-   * - 10/30/14
-     - Added :ref:`email template<Verified Registration Reminder>` for 
-       reminding students of last day to register for verified certificates.
-   * - 10/29/14
-     - Added information about course start time visibility to :ref:`The Course Start Date`.
-   * - 10/28/14
-     - Added section for :ref:`Show Reset Button` in :ref:`Problem Settings`
-       and clarified **Reset** button behavior in :ref:`Problem Student View`.
-   * - 10/27/14
-     - Fixed the code sample in :ref:`Script Tag Format` in the :ref:`Write
-       Your Own Grader` chapter.
-   * - 
-     - Fixed a bug in :ref:`Text Input Problem XML`.
-   * -
-     - Added :ref:`Create a Randomized Custom Python-Evaluated Input Problem`.
-   * - 10/23/14
-     - Added note about limited support of annotation problem type to
-       :ref:`Annotation`.
-   * - 10/16/14
-     - Updated :ref:`Set Important Dates for Your Course` to reflect change
-       that course dates now use UTC.
    * - 10/14/14
-     - Removed the chapter on the Vital Source E-Reader tool, as it is no
-       longer supported in the edX Platform.
+     - Added the :ref:`Rerun a Course` chapter.
    * - 10/7/14
      - Added the :ref:`Including Student Cohorts` chapter.
-       
        
 *****************
 September, 2014
@@ -235,7 +209,7 @@ May, 2014
      - Updated :ref:`Assigning_discussion_roles` with a note about course staff
        requiring explicit granting of discussion administration roles.
    * - 
-     - Added VitalSource topic.
+     - Added :ref:`VitalSource` topic.
    * - 05/08/14
      - Added warnings to :ref:`Add a File` about file size.
    * - 05/07/14
