@@ -15,7 +15,7 @@ Overview
 You can embed Google a calendar in your course, so students see the calendar in
 the courseware.
 
-You must first enable Google calendars in the course. Then you can add a Google calendar as an advanced component.
+You must first enable Google calendars in the course. Then you can add a Google calendar as an advanced component through edX Studio or OLX.
 
 
 *************************************
