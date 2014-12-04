@@ -11,7 +11,7 @@ This chapter describes how you can embed Google documents in your course. See:
 * `Enable Google Documents in edX Studio`_
 * `Add a Google Document Component in edX Studio`_
 * `Enable Google Documents in OLX`_
-* `Add a Google Document Component in OLX`_
+* `Add a Google Document XBlock in OLX`_
 
 *********
 Overview 
@@ -38,7 +38,7 @@ EdX Studio users then :ref:`enable<Enable Google Documents in edX Studio>` and
 :ref:`add<Add a Google Document Component in edX Studio>` Google documents.
 
 OLX users then :ref:`enable<Enable Google Documents in OLX>` and :ref:`add<Add
-a Google Document Component in OLX>` Google documents.
+a Google Document XBlock in OLX>` Google documents.
 
 You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
 
@@ -63,7 +63,7 @@ document to the web and get the embed code for the document.
    .. image:: ../Images/google-embed.png
     :alt: The Google document Publish to web Embed tab
 
-#. Copy the complete string in the **Embed** field, including the `<iframe>`
+#. Copy the complete string in the **Embed** field, including the ``<iframe>``
    tags.
 
    You will use that string when configuring the Google document component.
@@ -77,7 +77,7 @@ Enable Google Documents in edX Studio
 To enable Google documents in your course, in edX Studio:
 
 #. From the **Settings** menu, select **Advanced Settings**.
-#. In the **Advanced Modules List**, add `google-document`. For example:
+#. In the **Advanced Modules List**, add ``google-document``. For example:
    
    .. image:: ../Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google Documents
@@ -127,9 +127,9 @@ To add a Google document component:
 Enable Google Documents in OLX
 *******************************
 
-To enable Google documents in your course, you must add the string `google-
-document` to the `course` element's `advanced-modules` attribute in the XML
-file that defines the course structure.
+To enable Google documents in your course, you must add the string ``google-
+document`` to the ``course`` element's ``advanced-modules`` attribute in the
+XML file that defines the course structure.
 
 For example, the following XML file enables Google documents and calendars:
 
@@ -143,8 +143,26 @@ For example, the following XML file enables Google documents and calendars:
 
 For more information, see :ref:`The Courseware Structure`.
 
-.. _Add a Google Document Component in OLX:
+.. _Add a Google Document XBlock in OLX:
 
 *******************************************
-Add a Google Document Component in OLX
+Add a Google Document XBlock in OLX
 *******************************************
+
+To add a Google document in OLX, you create the ``google-document`` element,
+either embedded in the ``vertical`` element, or in its own file that is
+references within the vertical. For more information, see :ref:`The Courseware
+Structure`.
+
+For example:
+
+.. code-block:: xml
+
+  <google-document url_name="c5804436419148f68e2ee44abd396b12"
+    embed_code="&lt;iframe width=&quot;500&quot; height=&quot;300&quot;
+    frameborder=&quot;0&quot; src=&quot;https://docs.google.com/spreadsheet/pub
+    ?key=0AuZ_5O2JZpH5dGVUVDNGUE05aTFNcEl2Z0ZuTUNmWUE&amp;output=html&amp;widge
+    t=true&quot;&gt;&lt;/iframe&gt;" display_name="Google Document"/>
+
+The value of the ``embed_code`` attribute is the embed code you copied in the
+task `Get the Google Document Embed Code`_.
