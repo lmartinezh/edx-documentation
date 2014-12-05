@@ -12,6 +12,7 @@ This chapter describes how to embed Google documents in your course. See:
 * `Add a Google Document Component in edX Studio`_
 * `Enable Google Documents in OLX`_
 * `Add a Google Document XBlock in OLX`_
+* `Editing Google Documents`_
 
 *********
 Overview 
@@ -45,9 +46,9 @@ You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
 
 .. _Obtain the Google Document Embed Code:
 
-**********************************
+*************************************
 Obtain the Google Document Embed Code
-**********************************
+*************************************
 
 Before you can add a Google document to your course, you must publish the
 document to the web and get the embed code for the document.
@@ -167,3 +168,11 @@ For example:
 
 The value of the ``embed_code`` attribute is the embed code you copied in the
  `Get the Google Document Embed Code`_ task.
+
+**************************
+Editing Google Documents
+**************************
+
+When you edit and save a Google document, the changes are automatically
+reflected in the component. You do not need to edit the component. Students
+will see the updated Google document.
