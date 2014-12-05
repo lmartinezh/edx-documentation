@@ -4,10 +4,10 @@
 Google Document Tool
 #####################
 
-This chapter describes how you can embed Google documents in your course. See:
+This chapter describes how to embed Google documents in your course. See:
 
 * `Overview`_
-* `Get the Google Document Embed Code`_
+* `Obtain the Google Document Embed Code`_
 * `Enable Google Documents in edX Studio`_
 * `Add a Google Document Component in edX Studio`_
 * `Enable Google Documents in OLX`_
@@ -43,10 +43,10 @@ a Google Document XBlock in OLX>` Google documents.
 
 You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
 
-.. _Get the Google Document Embed Code:
+.. _Obtain the Google Document Embed Code:
 
 **********************************
-Get the Google Document Embed Code
+Obtain the Google Document Embed Code
 **********************************
 
 Before you can add a Google document to your course, you must publish the
@@ -78,12 +78,12 @@ Enable Google Documents in edX Studio
 To enable Google documents in your course, in edX Studio:
 
 #. From the **Settings** menu, select **Advanced Settings**.
-#. In the **Advanced Modules List**, add ``google-document``. For example:
+#. In the **Advanced Module List**, add ``google-document``. For example:
    
    .. image:: ../Images/google-advanced-setting.png
-    :alt: Advanced modules setting for Google Documents
+    :alt: Advanced modules setting for Google documents
 
-#. Click **Save Changes** at the bottom of the page.
+#. At the bottom of the page, click **Save Changes**.
 
 .. _Add a Google Document Component in edX Studio:
 
@@ -108,17 +108,17 @@ To add a Google document component:
    embedded.
 
    .. image:: ../Images/google-document-studio.png
-    :alt: The Google document component in a Unit page
+    :alt: The Google document component in a unit page
 
 #. In the new component, click **Edit**.
    
    .. image:: ../Images/google-document-edit-studio.png
     :alt: The Google document editor
 
-#. Modify the **Display Name** as needed.
+#. In the **Display Name** field, type the name for the component.
 
-#. In the **Embed Code** field, paste the embed code you copied in the task
-   `Get the Google Document Embed Code`_.
+#. In the **Embed Code** field, paste the embed code you copied in the 
+   `Get the Google Document Embed Code`_ task.
 
 #. Click **Save**.
 
@@ -166,4 +166,4 @@ For example:
     t=true&quot;&gt;&lt;/iframe&gt;" display_name="Google Document"/>
 
 The value of the ``embed_code`` attribute is the embed code you copied in the
-task `Get the Google Document Embed Code`_.
+ `Get the Google Document Embed Code`_ task.
