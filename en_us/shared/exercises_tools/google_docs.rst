@@ -17,8 +17,8 @@ This chapter describes how you can embed Google documents in your course. See:
 Overview 
 *********
 
-You can embed a Google document in your course, so students see the document in
-the courseware. For example, you can have students see a Google presentation:
+You can embed a Google document in your course so students see the document in
+the courseware. For example, you can share a Google presentation with students:
 
 .. image:: ../Images/google-presentation.png
   :alt: A Google presentation in courseware
@@ -34,10 +34,11 @@ You can embed the following types of Google documents:
 You must :ref:`get the Google document embed code<Get the Google Document Embed
 Code>` to use the document in your course.
 
-EdX Studio users then :ref:`enable<Enable Google Documents in edX Studio>` and
+If you are using edX Studio, :ref:`enable<Enable Google Documents in edX
+Studio>` and
 :ref:`add<Add a Google Document Component in edX Studio>` Google documents.
 
-OLX users then :ref:`enable<Enable Google Documents in OLX>` and :ref:`add<Add
+If you are using OLX, then :ref:`enable<Enable Google Documents in OLX>` and :ref:`add<Add
 a Google Document XBlock in OLX>` Google documents.
 
 You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
@@ -66,7 +67,7 @@ document to the web and get the embed code for the document.
 #. Copy the complete string in the **Embed** field, including the ``<iframe>``
    tags.
 
-   You will use that string when configuring the Google document component.
+   You will use that string to configure the Google document component.
 
 .. _Enable Google Documents in edX Studio:
 
@@ -96,7 +97,7 @@ Studio>` before you add the component.
 To add a Google document component:
 
 #. In the unit where you want to create the component, under **Add New
-   Component**, click the **Advanced**.
+   Component**, click **Advanced**.
 
    .. image:: ../Images/google-components.png
     :alt: The Advanced component list with Google Document
@@ -109,7 +110,7 @@ To add a Google document component:
    .. image:: ../Images/google-document-studio.png
     :alt: The Google document component in a Unit page
 
-#. In the component that appears, click **Edit**.
+#. In the new component, click **Edit**.
    
    .. image:: ../Images/google-document-edit-studio.png
     :alt: The Google document editor
@@ -131,7 +132,7 @@ To enable Google documents in your course, you must add the string ``google-
 document`` to the ``course`` element's ``advanced-modules`` attribute in the
 XML file that defines the course structure.
 
-For example, the following XML file enables Google documents and calendars:
+For example, the following XML snippet enables Google documents and calendars:
 
 .. code-block:: xml
 
@@ -149,10 +150,10 @@ For more information, see :ref:`The Courseware Structure`.
 Add a Google Document XBlock in OLX
 *******************************************
 
-To add a Google document in OLX, you create the ``google-document`` element,
-either embedded in the ``vertical`` element, or in its own file that is
-references within the vertical. For more information, see :ref:`The Courseware
-Structure`.
+To add a Google document XBlock in OLX, you create the ``google-document``
+element, either embedded in the ``vertical`` element, or in its own file that
+is references within the vertical. For more information, see :ref:`The
+Courseware Structure`.
 
 For example:
 

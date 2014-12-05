@@ -4,7 +4,7 @@
 Google Calendar Tool
 #####################
 
-This chapter describes how you can embed Google calendars in your course. See:
+This chapter describes how to embed Google calendars in your course. See:
 
 * 
 
@@ -12,10 +12,11 @@ This chapter describes how you can embed Google calendars in your course. See:
 Overview 
 *********
 
-You can embed Google a calendar in your course, so students see the calendar in
+You can embed a Google calendar in your course so students see the calendar in
 the courseware.
 
-You must first enable Google calendars in the course. Then you can add a Google calendar as an advanced component through edX Studio or OLX.
+You must first enable Google calendars in the course. Then you can add a Google
+calendar as an advanced component through edX Studio or OLX.
 
 
 *************************************
