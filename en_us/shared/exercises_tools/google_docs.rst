@@ -32,8 +32,8 @@ You can embed the following types of Google documents:
 * Form
 * Drawing
 
-You must :ref:`get the Google document embed code<Get the Google Document Embed
-Code>` to use the document in your course.
+You must :ref:`get the Google document embed code<Obtain the Google Document
+Embed Code>` to use the document in your course.
 
 If you are using edX Studio, :ref:`enable<Enable Google Documents in edX
 Studio>` and
@@ -59,7 +59,7 @@ document to the web and get the embed code for the document.
    .. image:: ../Images/google-publish-to-web.png
     :alt: The Google document Publish to web dialog box
 
-#. Click **Publish**, then click **OK** to confirm.
+#. Click **Publish**, then select **OK** to confirm.
 #. Click the **Embed** tab.
       
    .. image:: ../Images/google-embed.png
@@ -84,7 +84,7 @@ To enable Google documents in your course, in edX Studio:
    .. image:: ../Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google documents
 
-#. At the bottom of the page, click **Save Changes**.
+#. At the bottom of the page, select **Save Changes**.
 
 .. _Add a Google Document Component in edX Studio:
 
@@ -98,7 +98,7 @@ Studio>` before you add the component.
 To add a Google document component:
 
 #. In the unit where you want to create the component, under **Add New
-   Component**, click **Advanced**.
+   Component**, select **Advanced**.
 
    .. image:: ../Images/google-components.png
     :alt: The Advanced component list with Google Document
@@ -111,7 +111,7 @@ To add a Google document component:
    .. image:: ../Images/google-document-studio.png
     :alt: The Google document component in a unit page
 
-#. In the new component, click **Edit**.
+#. In the new component, select **Edit**.
    
    .. image:: ../Images/google-document-edit-studio.png
     :alt: The Google document editor
@@ -119,7 +119,7 @@ To add a Google document component:
 #. In the **Display Name** field, type the name for the component.
 
 #. In the **Embed Code** field, paste the embed code you copied in the 
-   `Get the Google Document Embed Code`_ task.
+   `Obtain the Google Document Embed Code`_ task.
 
 #. Click **Save**.
 
@@ -153,7 +153,7 @@ Add a Google Document XBlock in OLX
 
 To add a Google document XBlock in OLX, you create the ``google-document``
 element, either embedded in the ``vertical`` element, or in its own file that
-is references within the vertical. For more information, see :ref:`The
+is referenced within the vertical. For more information, see :ref:`The
 Courseware Structure`.
 
 For example:
@@ -166,8 +166,9 @@ For example:
     ?key=0AuZ_5O2JZpH5dGVUVDNGUE05aTFNcEl2Z0ZuTUNmWUE&amp;output=html&amp;widge
     t=true&quot;&gt;&lt;/iframe&gt;" display_name="Google Document"/>
 
+
 The value of the ``embed_code`` attribute is the embed code you copied in the
- `Get the Google Document Embed Code`_ task.
+`Obtain the Google Document Embed Code`_ task.
 
 **************************
 Editing Google Documents
