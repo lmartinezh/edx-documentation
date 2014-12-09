@@ -73,6 +73,8 @@ public and get its embed code.
    calendar.
 
 #. Copy the value of the ``src`` attribute from the address.
+   
+   .. note:: Do not copy the ``=`` character.
 
    .. image:: ../Images/google-calendar-address.png
     :alt: The Google calendar embed code
