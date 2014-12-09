@@ -68,6 +68,10 @@ document to the web and get the embed code for the document.
 #. Copy the complete string in the **Embed** field, including the ``<iframe>``
    tags.
 
+   .. note::  
+    Google images do not have an ``<iframe>`` tag; you just copy the complete
+    ``img`` tag.
+
    You will use that string to configure the Google document component.
 
 .. _Enable Google Documents in edX Studio:
