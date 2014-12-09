@@ -166,9 +166,13 @@ For example:
     ?key=0AuZ_5O2JZpH5dGVUVDNGUE05aTFNcEl2Z0ZuTUNmWUE&amp;output=html&amp;widge
     t=true&quot;&gt;&lt;/iframe&gt;" display_name="Google Document"/>
 
-
 The value of the ``embed_code`` attribute is the embed code you copied in the
 `Obtain the Google Document Embed Code`_ task.
+
+.. note:: 
+  The height and width values are set in the student view by the edX Learning
+  Management System. If you customize those values, your changes are
+  overridden.
 
 **************************
 Editing Google Documents
