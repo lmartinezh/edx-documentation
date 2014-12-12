@@ -19,10 +19,11 @@ Overview
 *********
 
 You can embed a Google document in your course so students see the document in
-the courseware. For example, you can share a Google presentation with students:
+the courseware. For example, you can share a Google spreadsheet with students:
 
-.. image:: ../Images/google-presentation.png
-  :alt: A Google presentation in courseware
+.. image:: ../Images/google-spreadsheet.png
+  :width: 600
+  :alt: A Google spreadsheet in courseware
 
 You can embed the following types of Google documents:
 
