@@ -32,16 +32,18 @@ You can embed the following types of Google documents:
 * Spreadsheet
 * Form
 * Drawing
+  
+Embedding a Google document in your course has three steps:
 
-You must :ref:`get the Google document embed code<Obtain the Google Document
-Embed Code>` to use the document in your course.
+#. `Obtain the Google Document Embed Code`_.
 
-If you are using edX Studio, :ref:`enable<Enable Google Documents in edX
-Studio>` and
-:ref:`add<Add a Google Document Component in edX Studio>` Google documents.
+#. Using :ref:`Studio<Enable Google Documents in edX Studio>` or
+   :ref:`OLX<Enable Google Documents in OLX>`, enable Google calendars in your
+   course.
 
-If you are using OLX, then :ref:`enable<Enable Google Documents in OLX>` and :ref:`add<Add
-a Google Document XBlock in OLX>` Google documents.
+#. Using :ref:`Studio<Add a Google Document Component in edX Studio>` or
+   :ref:`OLX<Add a Google Document XBlock in OLX>`, add the Google calendar to
+   your course.
 
 You can also use :ref:`Google calendars<Google Calendar Tool>` in courseware.
 
@@ -58,7 +60,7 @@ document to the web and get the embed code for the document.
 #. From the **File** menu, select **Publish to the web**.
    
    .. image:: ../Images/google-publish-to-web.png
-    :alt: The Google document Publish to web dialog box
+    :alt: The Google document Publish to the web dialog box
 
 #. Click **Publish**, then select **OK** to confirm.
 #. Click the **Embed** tab.
@@ -70,7 +72,7 @@ document to the web and get the embed code for the document.
    tags.
 
    .. note::  
-    Google images do not have an ``<iframe>`` tag; you just copy the complete
+    Google images do not have an ``<iframe>`` tag. You just copy the complete
     ``img`` tag.
 
    You will use that string to configure the Google document component.
@@ -81,10 +83,13 @@ document to the web and get the embed code for the document.
 Enable Google Documents in edX Studio
 *************************************
 
-To enable Google documents in your course, in edX Studio:
+To enable Google documents in your course:
 
 #. From the **Settings** menu, select **Advanced Settings**.
-#. In the **Advanced Module List**, add ``google-document``. For example:
+#. In the **Advanced Module List** field, place your cursor between the braces,
+   and then type ``"google-document"``. If you see other values in this field,
+   add a comma after the closing quotation mark for the last value, and then
+   type ``"google-document"``. For example:
    
    .. image:: ../Images/google-advanced-setting.png
     :alt: Advanced modules setting for Google documents
@@ -106,7 +111,7 @@ To add a Google document component:
    Component**, select **Advanced**.
 
    .. image:: ../Images/google-components.png
-    :alt: The Advanced component list with Google Document
+    :alt: The advanced component list with Google document
 
 #. Click **Google Document**.
    
@@ -138,7 +143,7 @@ To enable Google documents in your course, you must add the string ``google-
 document`` to the ``course`` element's ``advanced-modules`` attribute in the
 XML file that defines the course structure.
 
-For example, the following XML snippet enables Google documents and calendars:
+For example, the following XML enables Google documents and calendars:
 
 .. code-block:: xml
 
@@ -156,10 +161,12 @@ For more information, see :ref:`The Courseware Structure`.
 Add a Google Document XBlock in OLX
 *******************************************
 
-To add a Google document XBlock in OLX, you create the ``google-document``
-element, either embedded in the ``vertical`` element, or in its own file that
-is referenced within the vertical. For more information, see :ref:`The
-Courseware Structure`.
+To add a Google document XBlock in OLX, you create the ``google-
+document``element. You can embed the ``google-document`` element in the
+``vertical`` element, or you can create the ``google-document`` element as a
+stand-alone file that you reference in the vertical.
+
+For more information, see :ref:`The Courseware Structure`.
 
 For example:
 
@@ -175,9 +182,8 @@ The value of the ``embed_code`` attribute is the embed code you copied in the
 `Obtain the Google Document Embed Code`_ task.
 
 .. note:: 
-  The height and width values are set in the student view by the edX Learning
-  Management System. If you customize those values, your changes are
-  overridden.
+  The edX Learning Management System sets the height and width values for
+  Google documents. If you change these values, the LMS overrides your changes.
 
 **************************
 Editing Google Documents
