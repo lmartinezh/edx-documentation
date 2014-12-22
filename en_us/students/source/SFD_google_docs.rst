@@ -1,17 +1,17 @@
 .. _Google Drive:
 
 ####################################
-Google Drive Documents and Calendars
+Google Drive Files and Calendars
 ####################################
 
-Some courses include Google Drive documents, such as text documents,
+Some courses include Google Drive files, such as text documents,
 spreadsheets, and presentations. Your course might also include a Google
 calendar. Google documents and calendars appear in the body of your
 course just like any other course content. 
 
 .. note:: Google services are not available in some regions and countries. 
  If Google services are not available in your area, you might see an "image
- unavailable" message in the place of the Google document or calendar. Your
+ unavailable" message in the place of the Google file or calendar. Your
  instructor might provide alternative resources if Google services are not
  available for you.
 
@@ -19,7 +19,7 @@ course just like any other course content.
 Google Drive Documents
 ***********************
 
-Your course might include the following types of Google Drive documents.
+Your course might include the following types of Google Drive files.
 
 * Google Docs (text documents)
 * Google Drawings (images)
@@ -33,10 +33,10 @@ For example, your course might include a spreadsheet that resembles this one.
   :width: 500
   :alt: A Google spreadsheet in a course
 
-You can interact with Google Drive documents in a course. For example, you can
+You can interact with Google Drive files in a course. For example, you can
 complete forms, look through the slides in a presentation, and enter different
 values in a spreadsheet. However, you cannot change the content of a Google
-Drive document.
+Drive file.
 
 ***********************
 Google Calendars
