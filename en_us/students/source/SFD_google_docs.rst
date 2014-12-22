@@ -6,7 +6,7 @@ Google Drive Files and Calendars
 
 Some courses include Google Drive files, such as text documents,
 spreadsheets, and presentations. Your course might also include a Google
-calendar. Google documents and calendars appear in the body of your
+calendar. Google files and calendars appear in the body of your
 course just like any other course content. 
 
 .. note:: Google services are not available in some regions and countries. 
