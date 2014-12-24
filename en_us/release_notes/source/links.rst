@@ -354,3 +354,5 @@
 .. _Opaque Keys: https://github.com/edx/edx-platform/wiki/Opaque-Keys
 
 .. _Ubuntu installation instructions: https://github.com/edx/configuration/wiki/edX-Ubuntu-12.04-64-bit-Installation
+
+.. _edX Data Analytics API Version 0: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
