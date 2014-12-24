@@ -5,7 +5,7 @@ Creating Exercises and Tools
 ############################
 
 ************************************
-Introduction to  Exercises and Tools
+Introduction to Exercises and Tools
 ************************************
 
 Studio allows you to create a wide variety of exercises and tools for your
@@ -66,19 +66,19 @@ General Exercises and Tools
        separately from the edX platform. An external grader is particularly
        useful for software programming courses where students are asked to
        submit complex code.
-   * - .. image:: /Images/GoogleHangout_WithPeople.png   
+   * - .. image:: /Images/google-calendar.png   
           :width: 100
           :alt: Google Calendar
      - :ref:`Google Calendar Tool`
-     - You can embed a Google calendar in your course so students see the
+     - You can embed a Google calendar in your course so that students see the
        calendar in the courseware. You can use a Google calendar to share quiz
        dates, office hours, or other schedules of interest to students.
-   * - .. image:: /Images/GoogleHangout_WithPeople.png   
+   * - .. image:: /Images/google-spreadsheet.png   
           :width: 100
-          :alt: Google Drive
-     - :ref:`Google Document Tool`
-     - You can embed a Google document in your course so students see the
-       document in the courseware.
+          :alt: Google Drive Tool
+     - :ref:`Google Drive Tool`
+     - You can embed a Google Drive file, such as a document, spreadsheet, or
+       image, in your course so that students see the file in the courseware.
    * - .. image:: /Images/GoogleHangout_WithPeople.png   
           :width: 100
           :alt: Google Hangout
