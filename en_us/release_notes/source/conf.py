@@ -35,3 +35,5 @@ copyright = u'2015, edX'
 version = ''
 # The full version, including alpha/beta/rc tags.
 release = ''
+
+exclude_patterns = ['links.rst', 'reusables/*']

@@ -33,6 +33,7 @@ Introduction
    ora/index
    research/index
    xblocks/index
+   documentation/index
 
 ******************
 Previous Changes

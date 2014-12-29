@@ -10,4 +10,5 @@ The following pages list changes to edX Discussions:
    01-06-2015
 
 
+.. include:: ../reusables/documentation.rst
 .. include:: ../links.rst
