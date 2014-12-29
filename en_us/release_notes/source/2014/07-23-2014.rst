@@ -37,7 +37,7 @@ The following documentation is available:
 
   Recent changes include: 
 
-  * A set of `example messages to students <http://edx-partner-course-staff.readthedocs.org/en/latest/releasing_course/course_launching.html#example-messages-to-students>`_ is now available in the `Course Launching Activities`_ chapter.
+  * A set of `example messages to students`_ is now available in the `Course Launching Activities`_ chapter.
 
   * A `Grade Ranges and Certificates`_ section is now available in the `Establishing a Grading Policy`_ chapter.
        

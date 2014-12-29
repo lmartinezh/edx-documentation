@@ -32,7 +32,7 @@ The following documentation is available:
     * `Answer Pools in a Multiple Choice Problem`_
       
 
-  * Expanded the `Grade and Answer Data <http://edx.readthedocs.org/projects/ca/en/latest/running_course/course_grades.html#grades>`_ section to include a topic on interpreting the Student Answer Distribution report.
+  * Expanded the `Grade and Answer Data`_ section to include a topic on interpreting the Student Answer Distribution report.
 
 * `edX Research Guide`_
 
