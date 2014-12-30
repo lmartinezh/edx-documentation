@@ -22,19 +22,19 @@ The following documentation is available:
 
 * `edX Open Learning XML Guide`_
 
-* `edX Platform API Version 0.5`_
+* `edX Platform API`_
   
-* `edX Data Analytics API Version 0`_
+* `edX Data Analytics API`_
 
 **************************
 Other edX Resources
 **************************
 
 You can sign up for the `edX Release Announcements mailing list`_ to get an
-email message each time we update the edX Course Staff Release Notes.
+email message each time we update the *edX Release Notes*.
 
-You can access the `edX Status`_ page to get an up-to-date status for all
-services on edx.org and edX Edge. The page also includes the Twitter feed for
+You can access the `edX Status`_ page to get an up-to-date status for all edX
+services. The page also includes the Twitter feed for
 @edXstatus, which the edX Operations team uses to post updates.
 
 You can access the public `edX roadmap`_ for details about the currently

@@ -2,7 +2,7 @@
 edX Website
 ####################################
 
-The following pages list changes to the edX webiste, `edx.org`_:
+The following pages list changes to the edX website, `edx.org`_:
 
 .. toctree::
    :maxdepth: 1

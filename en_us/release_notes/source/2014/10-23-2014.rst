@@ -105,7 +105,7 @@ The following documentation is available:
 
 .. comment for spacing only 
 
-* `edX Platform API Version 0.5`_
+* `edX Platform API`_
 
   Alpha documentation for the edX platform API is now available.
 

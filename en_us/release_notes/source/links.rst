@@ -54,7 +54,7 @@
 
 .. Platform API guide links
 
-.. _edX Platform API Version 0.5: http://edx-platform-api.readthedocs.org/en/latest/index.html
+.. _edX Platform API: http://edx-platform-api.readthedocs.org/en/latest/index.html
 
 .. other links not yet categorized carefully
 
@@ -355,4 +355,4 @@
 
 .. _Ubuntu installation instructions: https://github.com/edx/configuration/wiki/edX-Ubuntu-12.04-64-bit-Installation
 
-.. _edX Data Analytics API Version 0: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html
+.. _edX Data Analytics API: http://edx.readthedocs.org/projects/edx-data-analytics-api/en/latest/index.html

@@ -1,8 +1,8 @@
 ####################################
-edX Research
+edX Analytics
 ####################################
 
-The following pages list changes to edX Research:
+The following pages list changes to edX Analytics:
 
 .. toctree::
    :maxdepth: 1

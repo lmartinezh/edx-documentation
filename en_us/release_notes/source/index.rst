@@ -17,7 +17,7 @@ Introduction
 
 
 ******************
-2015 Changes
+2015 Releases
 ******************
 
 .. toctree::
@@ -31,12 +31,12 @@ Introduction
    mobile/index
    openedx/index
    ora/index
-   research/index
+   analytics/index
    xblocks/index
    documentation/index
 
 ******************
-Previous Changes
+Previous Releases
 ******************
 
 .. toctree::

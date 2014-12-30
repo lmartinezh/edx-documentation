@@ -108,7 +108,7 @@ The following documentation is available:
 
 * `edX Open Learning XML Guide`_
 
-* `edX Platform API Version 0.5`_
+* `edX Platform API`_
 
 **************************
 Other edX Resources
